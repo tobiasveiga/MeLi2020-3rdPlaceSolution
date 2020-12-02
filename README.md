@@ -1,9 +1,6 @@
 # MeLi2020_WinnerSolution
 MeLi 2020 challenge Winner Solution
 
-Create environment and install dependencies:
-conda create --name <env> --file requirements_conda.txt python=3.7.9
-
 The solution is a candidate generator and ranker approach.
 
 The candidate generator turns each session into a bag of words of three data types (session items, session domains and session queries words) and uses KNN to get the 20 most simliar sessions. The KNN only fits on data where the bought item was in the session.
@@ -12,6 +9,12 @@ The ranker transforms the problem into a classification problem where we have to
 
 Finally, a few more post-processing is done to rank the rest of the predictions.
 
+## How to run the code
+
+Create environment and install dependencies:
+
+conda create --name <env> --file requirements_conda.txt python=3.7.9
+  
 To generate a solution, do the following:
 
 1) Run the notebook KNN_GENERATOR.pynb
