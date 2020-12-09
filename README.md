@@ -1,5 +1,5 @@
-# MeLi2020_3rd_PlaceSolution
-MeLi 2020 challenge Winner Solution
+# MeLi2020_3rd_Place_Solution
+MeLi 2020 challenge 3rd Place Solution
 
 The solution is a candidate generator and ranker approach.
 
