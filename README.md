@@ -1,4 +1,4 @@
-# MeLi2020_WinnerSolution
+# MeLi2020_3rd_PlaceSolution
 MeLi 2020 challenge Winner Solution
 
 The solution is a candidate generator and ranker approach.
